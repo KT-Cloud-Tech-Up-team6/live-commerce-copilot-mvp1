@@ -1,0 +1,707 @@
+{
+  "dataset_name": "로보락 F25 유튜브 홈쇼핑 영상 기반 P파트 예상 질문",
+  "purpose": "실제 영상 시청 중 달릴 법한 P파트 댓글형 질문 시뮬레이션",
+  "total": 100,
+  "questions": [
+    {
+      "id": 1,
+      "question": "흡입력 2만 파스칼 맞아요?",
+      "category": "흡입/청소성능",
+      "tone": "직접질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 2,
+      "question": "흡입력이 정확히 몇 Pa예요?",
+      "category": "흡입/청소성능",
+      "tone": "직접질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 3,
+      "question": "물걸레하면서 흡입도 동시에 되는 건가요?",
+      "category": "흡입/청소성능",
+      "tone": "확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 4,
+      "question": "과자 부스러기 같은 큰 먼지도 잘 빨아들여요?",
+      "category": "흡입/청소성능",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 5,
+      "question": "날계란 같은 것도 진짜 흡수 가능한 거예요?",
+      "category": "흡입/청소성능",
+      "tone": "의심형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 6,
+      "question": "흡입력 좋은 건 알겠는데 일반 진공청소기 대신 써도 돼요?",
+      "category": "흡입/청소성능",
+      "tone": "비교형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 7,
+      "question": "고추기름 같은 것도 한 번에 닦여요?",
+      "category": "물걸레/오염",
+      "tone": "영상반응형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 8,
+      "question": "커피나 음료수 쏟은 것도 흡수할 수 있어요?",
+      "category": "물걸레/오염",
+      "tone": "실사용형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 9,
+      "question": "바닥에 물 쏟았을 때 바로 빨아들일 수 있나요?",
+      "category": "물걸레/오염",
+      "tone": "실사용형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 10,
+      "question": "끈적한 바닥도 물걸레질 가능한가요?",
+      "category": "물걸레/오염",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 11,
+      "question": "물걸레 지나가고 바닥에 물 많이 남나요?",
+      "category": "물걸레/오염",
+      "tone": "걱정형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 12,
+      "question": "흡수 모드는 어떤 상황에서 쓰는 거예요?",
+      "category": "청소모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 13,
+      "question": "대리석에도 사용해도 되나요?",
+      "category": "바닥재/호환성",
+      "tone": "호환성질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 14,
+      "question": "장판에도 써도 돼요?",
+      "category": "바닥재/호환성",
+      "tone": "호환성질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 15,
+      "question": "강화마루에서 사용 가능한가요?",
+      "category": "바닥재/호환성",
+      "tone": "호환성질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 16,
+      "question": "원목마루에도 괜찮나요?",
+      "category": "바닥재/호환성",
+      "tone": "호환성질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 17,
+      "question": "카펫 위에서도 사용할 수 있어요?",
+      "category": "바닥재/호환성",
+      "tone": "호환성질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 18,
+      "question": "러그 위에 올라가도 문제없나요?",
+      "category": "바닥재/호환성",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 19,
+      "question": "머리카락 진짜 안 엉켜요?",
+      "category": "머리카락/엉킴",
+      "tone": "의심형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 20,
+      "question": "긴 머리카락도 롤러에 안 감기나요?",
+      "category": "머리카락/엉킴",
+      "tone": "실사용형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 21,
+      "question": "머리카락 때문에 롤러를 가위로 자를 필요 없는 거죠?",
+      "category": "머리카락/엉킴",
+      "tone": "확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 22,
+      "question": "강아지 털도 잘 청소되나요?",
+      "category": "반려동물",
+      "tone": "펫사용자",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 23,
+      "question": "고양이 털도 롤러에 안 엉키나요?",
+      "category": "반려동물",
+      "tone": "펫사용자",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 24,
+      "question": "머리카락은 따로 걸러주는 구조가 있나요?",
+      "category": "머리카락/엉킴",
+      "tone": "구조질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 25,
+      "question": "롤러 청소는 자동으로 해주는 건가요?",
+      "category": "세척/건조",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 26,
+      "question": "도크에 올려놓으면 자동 세척돼요?",
+      "category": "세척/건조",
+      "tone": "확인형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 27,
+      "question": "롤러를 따로 손빨래할 필요 없나요?",
+      "category": "세척/건조",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 28,
+      "question": "세척할 때 뜨거운 물을 사용하는 건가요?",
+      "category": "세척/건조",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 29,
+      "question": "롤러 세척 온도는 정확히 몇 도예요?",
+      "category": "세척/건조",
+      "tone": "수치질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 30,
+      "question": "건조도 자동으로 되는 건가요?",
+      "category": "세척/건조",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 31,
+      "question": "건조하는 데 몇 분 걸려요?",
+      "category": "세척/건조",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 32,
+      "question": "건조 온도는 몇 도예요?",
+      "category": "세척/건조",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 33,
+      "question": "90도 온수 세척에 90도 열풍 건조 둘 다 되는 거예요?",
+      "category": "세척/건조",
+      "tone": "영상확인형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 34,
+      "question": "건조하고 나면 걸레 냄새 안 나나요?",
+      "category": "세척/건조",
+      "tone": "걱정형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 35,
+      "question": "99.99% 살균된다는 건 인증된 수치인가요?",
+      "category": "세척/건조",
+      "tone": "검증형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 36,
+      "question": "소파 밑에도 들어가나요?",
+      "category": "플랫리치/조작성",
+      "tone": "실사용형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 37,
+      "question": "침대 밑까지 청소할 수 있어요?",
+      "category": "플랫리치/조작성",
+      "tone": "실사용형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 38,
+      "question": "본체를 180도로 눕힐 수 있는 거죠?",
+      "category": "플랫리치/조작성",
+      "tone": "확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 39,
+      "question": "12.5cm 높이 공간이면 들어갈 수 있어요?",
+      "category": "플랫리치/조작성",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 40,
+      "question": "눕혀서 써도 물이 새지 않나요?",
+      "category": "플랫리치/조작성",
+      "tone": "걱정형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 41,
+      "question": "청소 헤드는 몇 도까지 회전해요?",
+      "category": "플랫리치/조작성",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 42,
+      "question": "벽 쪽 틈새는 몇 mm까지 붙어서 청소돼요?",
+      "category": "틈새/롤러",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 43,
+      "question": "벽 모서리까지 청소 잘 되나요?",
+      "category": "틈새/롤러",
+      "tone": "실사용형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 44,
+      "question": "롤러는 몇 RPM으로 돌아가나요?",
+      "category": "틈새/롤러",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 45,
+      "question": "바닥 누르는 힘은 어느 정도예요?",
+      "category": "틈새/롤러",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 46,
+      "question": "바닥 오염을 자동으로 감지하나요?",
+      "category": "오염감지/모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 47,
+      "question": "더러운 곳에서는 자동으로 세기가 강해지나요?",
+      "category": "오염감지/모드",
+      "tone": "확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 48,
+      "question": "오염도에 따라 물 분사량도 자동 조절되나요?",
+      "category": "오염감지/모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 49,
+      "question": "청소 모드는 총 몇 개예요?",
+      "category": "오염감지/모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 50,
+      "question": "AUTO 모드는 어떤 기능인가요?",
+      "category": "오염감지/모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 51,
+      "question": "ECO 모드도 지원하나요?",
+      "category": "오염감지/모드",
+      "tone": "확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 52,
+      "question": "카펫 전용 모드도 있나요?",
+      "category": "오염감지/모드",
+      "tone": "확인형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 53,
+      "question": "물통 용량 얼마나 돼요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 54,
+      "question": "청수통 몇 ml예요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 55,
+      "question": "오수통 용량은 얼마예요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 56,
+      "question": "본체 무게가 몇 kg인가요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 57,
+      "question": "도크까지 합치면 무게가 얼마나 돼요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 58,
+      "question": "여자가 밀기엔 많이 무겁지 않나요?",
+      "category": "제원",
+      "tone": "체감질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 59,
+      "question": "제품 크기가 어떻게 돼요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 60,
+      "question": "소음 데시벨이 몇 정도예요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 61,
+      "question": "밤에 돌려도 될 정도로 조용한가요?",
+      "category": "제원",
+      "tone": "체감질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 62,
+      "question": "배터리 용량은 얼마예요?",
+      "category": "배터리/전원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 63,
+      "question": "완충하면 몇 분 사용할 수 있나요?",
+      "category": "배터리/전원",
+      "tone": "수치질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 64,
+      "question": "30평 집도 한 번 충전으로 청소 가능해요?",
+      "category": "배터리/전원",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 65,
+      "question": "충전 시간은 얼마나 걸리나요?",
+      "category": "배터리/전원",
+      "tone": "수치질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 66,
+      "question": "배터리 분리 교체 가능한가요?",
+      "category": "배터리/전원",
+      "tone": "유지관리형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 67,
+      "question": "필터나 걸레 교체 비용은 얼마나 들어요?",
+      "category": "소모품/유지관리",
+      "tone": "비용관심형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 68,
+      "question": "롤러는 몇 개월마다 교체해야 하나요?",
+      "category": "소모품/유지관리",
+      "tone": "유지관리형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 69,
+      "question": "여분 롤러가 기본 구성품에 들어있나요?",
+      "category": "소모품/유지관리",
+      "tone": "구성품질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 70,
+      "question": "AS는 몇 년 보증되나요?",
+      "category": "AS/보증",
+      "tone": "신중형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 71,
+      "question": "AS센터 전화번호가 어떻게 돼요?",
+      "category": "AS/보증",
+      "tone": "직접질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 72,
+      "question": "앱으로 원격 조작 가능한가요?",
+      "category": "앱/연동",
+      "tone": "기능질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 73,
+      "question": "와이파이 연결 지원하나요?",
+      "category": "앱/연동",
+      "tone": "기능질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 74,
+      "question": "음성 명령도 지원해요?",
+      "category": "앱/연동",
+      "tone": "기능질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 75,
+      "question": "화이트 색상도 있나요?",
+      "category": "색상/옵션",
+      "tone": "옵션질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 76,
+      "question": "흡입력은 몇이고 앱으로 조작도 가능한가요?",
+      "category": "복합질문",
+      "tone": "복합형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 77,
+      "question": "건조는 몇 분 걸리고 냄새도 완전히 없어지나요?",
+      "category": "복합질문",
+      "tone": "복합형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 78,
+      "question": "소파 밑 청소 가능하고 LED 조명도 있나요?",
+      "category": "복합질문",
+      "tone": "복합형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 79,
+      "question": "물통 용량이랑 한 번 채우면 몇 평 청소되는지도 알려주세요.",
+      "category": "복합질문",
+      "tone": "복합형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 80,
+      "question": "머리카락 엉킴 방지 되고 반려동물 털에도 좋은가요?",
+      "category": "복합질문",
+      "tone": "복합형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 81,
+      "question": "청소하다가 오수통 비우는 건 어렵지 않나요?",
+      "category": "물통/유지관리",
+      "tone": "실사용형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 82,
+      "question": "오수통에 머리카락이 같이 들어가도 괜찮아요?",
+      "category": "물통/유지관리",
+      "tone": "걱정형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 83,
+      "question": "물통이 아래에 있어서 밀 때 더 안정적인 건가요?",
+      "category": "제품구조/조작성",
+      "tone": "구조질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 84,
+      "question": "청소 압력이 20N이라는 게 맞나요?",
+      "category": "청소성능",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 85,
+      "question": "헤드 회전이 70도까지 되는 거예요?",
+      "category": "플랫리치/조작성",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 86,
+      "question": "롤러가 분당 450번 도는 건가요?",
+      "category": "틈새/롤러",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 87,
+      "question": "벽에 거의 붙여서 청소할 수 있는 거죠?",
+      "category": "틈새/롤러",
+      "tone": "확인형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 88,
+      "question": "오염이 심한 부분은 물도 더 많이 뿌려주나요?",
+      "category": "오염감지/모드",
+      "tone": "기능질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 89,
+      "question": "자동 모드랑 에코 모드 차이가 뭔가요?",
+      "category": "오염감지/모드",
+      "tone": "비교형",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 90,
+      "question": "흡수 모드에서는 물걸레는 안 돌아가나요?",
+      "category": "오염감지/모드",
+      "tone": "세부기능질문",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 91,
+      "question": "청소기 색상은 블랙만 나오는 건가요?",
+      "category": "색상/옵션",
+      "tone": "옵션질문",
+      "expected_grounding": "PARTIAL_GROUNDED"
+    },
+    {
+      "id": 92,
+      "question": "도크 포함 높이가 얼마나 되나요?",
+      "category": "제원",
+      "tone": "수치질문",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 93,
+      "question": "본체만 들면 4kg 조금 넘는 정도 맞죠?",
+      "category": "제원",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 94,
+      "question": "에코 모드 기준으로 71데시벨 정도인가요?",
+      "category": "제원",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 95,
+      "question": "배터리 정격 용량이 3700mAh 맞나요?",
+      "category": "배터리/전원",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 96,
+      "question": "배터리는 4000mAh라고 보면 되는 건가요?",
+      "category": "배터리/전원",
+      "tone": "수치확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 97,
+      "question": "전용 클리너는 꼭 넣어야 하나요?",
+      "category": "소모품/유지관리",
+      "tone": "사용방법형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 98,
+      "question": "일반 세제 넣으면 고장날 수도 있나요?",
+      "category": "소모품/유지관리",
+      "tone": "걱정형",
+      "expected_grounding": "NO_GROUNDED_INFO"
+    },
+    {
+      "id": 99,
+      "question": "AS 보증은 1년이고 고객센터도 따로 있는 거죠?",
+      "category": "AS/보증",
+      "tone": "복합확인형",
+      "expected_grounding": "GROUNDED"
+    },
+    {
+      "id": 100,
+      "question": "흡입력 2만 파스칼이고 소파 밑 12.5cm까지 들어가는 거 맞죠?",
+      "category": "복합질문",
+      "tone": "복합확인형",
+      "expected_grounding": "GROUNDED"
+    }
+  ]
+}
